@@ -68,45 +68,6 @@ npm run dev
 
 ---
 
-## 🌐 Deploy to Netlify (Free – Recommended)
-
-1. Push this repo to GitHub
-2. Go to [netlify.com](https://netlify.com) → **Add new site** → **Import from Git**
-3. Select your repository
-4. Set build settings:
-   - **Build command:** `npm run build`
-   - **Publish directory:** `dist`
-5. Click **Deploy site**
-6. Your live URL will be: `https://your-site-name.netlify.app`
-
----
-
-## 🚄 Deploy to Railway
-
-1. Push this repo to GitHub
-2. Go to [railway.app](https://railway.app) → **New Project** → **Deploy from GitHub**
-3. Select your repository
-4. Add these settings in **Variables**:
-   - No env variables needed for frontend
-5. Railway will auto-detect Vite and deploy
-6. Your live URL will be shown in the dashboard
-
----
-
-## ▲ Deploy to Vercel (Alternative)
-
-```bash
-# Install Vercel CLI
-npm i -g vercel
-
-# Deploy
-vercel
-
-# Follow prompts, get live URL instantly
-```
-
----
-
 ## 🏗️ Tech Stack
 
 | Layer     | Technology         |
